@@ -37,6 +37,24 @@ main {
     position: relative;
 }
 
+.botoes {
+   position: absolute;
+   left: 37vw;
+   bottom: 8%;
+   display: flex;
+}
+
+.alterar {
+    margin-top: 1em;
+    font-size: 0.75em;
+    padding: 0.2em 1em;
+    margin-right: 1em;
+    border: 3px solid var(--main-branco);
+    background: var(--main-branco);
+    clip-path: polygon(100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 0);
+    cursor: pointer;
+}
+
 .robo {
     height: 110%;
     z-index: 1;

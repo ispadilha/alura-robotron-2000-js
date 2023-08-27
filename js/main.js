@@ -56,3 +56,7 @@ function alterStats(part) {
         elemento.textContent = parseInt(elemento.textContent) + parts[part][elemento.dataset.stat];
     })
 }
+
+function changeImage(color){
+    document.querySelector(".robo").src="img/Robotrons/Robotron 2000 - " + color + "/robotron.png";
+ }
